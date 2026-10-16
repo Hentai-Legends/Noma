@@ -1,0 +1,8 @@
+{
+    "target_language": "Indonesia",
+    "model_name": "gemini-3.5-flash-lite",
+    "words_per_chunk": 2000,
+    "delay_seconds": 1.0,
+    "output_format": "docx",
+    "bilingual_output": false
+}

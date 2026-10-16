@@ -1,0 +1,66 @@
+# ==========================================
+# 1. API Keys & Sensitive Environment Files
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# 2. Python Cache & Build Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 3. Translation Checkpoint Cache & Context (Private)
+# ==========================================
+.cache/
+data/cache/
+data/context/
+prompt.txt
+
+
+# ==========================================
+# 4. Input & Output Files (Novels & Books)
+# ==========================================
+input/
+output/
+
+# ==========================================
+# 5. Logs (Contains Private Paths & Usernames)
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# 6. IDEs, Editors & OS Files
+# ==========================================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Office Lock Files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ==========================================
+# 7. Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
